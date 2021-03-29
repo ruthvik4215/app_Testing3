@@ -6,20 +6,51 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_sms_mms"
         android:name="com.example.testing3.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="@string/menu_sms_mms"
+        tools:layout="@layout/fragment_sms_mms" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_notifications"
         android:name="com.example.testing3.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_privacy" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_appearance"
         android:name="com.example.testing3.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_chats"
+        android:name="com.example.testing3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_data_and_storage"
+        android:name="com.example.testing3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_linked_devices"
+        android:name="com.example.testing3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.testing3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_advanced"
+        android:name="com.example.testing3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_privacy"
+        tools:layout="@layout/fragment_notifications" />
+
 </navigation>
